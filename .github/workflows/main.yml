@@ -1,0 +1,17 @@
+name: demo
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello
+        run: echo "Hello from Khizar"
+  
+
+  
